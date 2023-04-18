@@ -1,0 +1,16 @@
+|--- feature_8 <= 1.50
+|   |--- feature_14 <= 385.50
+|   |   |--- feature_13 <= 111.00
+|   |   |   |--- class: good
+|   |   |--- feature_13 >  111.00
+|   |   |   |--- feature_14 <= 148.50
+|   |   |   |   |--- class: bad
+|   |   |   |--- feature_14 >  148.50
+|   |   |   |   |--- class: good
+|   |--- feature_14 >  385.50
+|   |   |--- class: good
+|--- feature_8 >  1.50
+|   |--- feature_2 <= 0.17
+|   |   |--- class: bad
+|   |--- feature_2 >  0.17
+|   |   |--- class: bad

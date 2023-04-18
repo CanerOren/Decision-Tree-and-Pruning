@@ -1,0 +1,175 @@
+|--- feature_8 <= 1.50
+|   |--- feature_14 <= 385.50
+|   |   |--- feature_13 <= 111.00
+|   |   |   |--- feature_14 <= 33.00
+|   |   |   |   |--- feature_2 <= 22.04
+|   |   |   |   |   |--- feature_6 <= 5.50
+|   |   |   |   |   |   |--- feature_4 <= 1.50
+|   |   |   |   |   |   |   |--- class: good
+|   |   |   |   |   |   |--- feature_4 >  1.50
+|   |   |   |   |   |   |   |--- feature_7 <= 2.00
+|   |   |   |   |   |   |   |   |--- class: bad
+|   |   |   |   |   |   |   |--- feature_7 >  2.00
+|   |   |   |   |   |   |   |   |--- class: good
+|   |   |   |   |   |--- feature_6 >  5.50
+|   |   |   |   |   |   |--- feature_2 <= 5.61
+|   |   |   |   |   |   |   |--- class: bad
+|   |   |   |   |   |   |--- feature_2 >  5.61
+|   |   |   |   |   |   |   |--- class: good
+|   |   |   |   |--- feature_2 >  22.04
+|   |   |   |   |   |--- class: bad
+|   |   |   |--- feature_14 >  33.00
+|   |   |   |   |--- feature_7 <= 1.73
+|   |   |   |   |   |--- feature_5 <= 1.50
+|   |   |   |   |   |   |--- class: good
+|   |   |   |   |   |--- feature_5 >  1.50
+|   |   |   |   |   |   |--- class: bad
+|   |   |   |   |--- feature_7 >  1.73
+|   |   |   |   |   |--- feature_14 <= 79.50
+|   |   |   |   |   |   |--- class: bad
+|   |   |   |   |   |--- feature_14 >  79.50
+|   |   |   |   |   |   |--- class: good
+|   |   |--- feature_13 >  111.00
+|   |   |   |--- feature_14 <= 148.50
+|   |   |   |   |--- feature_9 <= 1.50
+|   |   |   |   |   |--- feature_2 <= 1.33
+|   |   |   |   |   |   |--- feature_2 <= 0.52
+|   |   |   |   |   |   |   |--- class: good
+|   |   |   |   |   |   |--- feature_2 >  0.52
+|   |   |   |   |   |   |   |--- class: bad
+|   |   |   |   |   |--- feature_2 >  1.33
+|   |   |   |   |   |   |--- feature_14 <= 62.50
+|   |   |   |   |   |   |   |--- feature_7 <= 10.75
+|   |   |   |   |   |   |   |   |--- feature_1 <= 20.84
+|   |   |   |   |   |   |   |   |   |--- class: bad
+|   |   |   |   |   |   |   |   |--- feature_1 >  20.84
+|   |   |   |   |   |   |   |   |   |--- feature_1 <= 29.21
+|   |   |   |   |   |   |   |   |   |   |--- feature_2 <= 11.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- feature_2 >  11.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: bad
+|   |   |   |   |   |   |   |   |   |--- feature_1 >  29.21
+|   |   |   |   |   |   |   |   |   |   |--- class: good
+|   |   |   |   |   |   |   |--- feature_7 >  10.75
+|   |   |   |   |   |   |   |   |--- class: bad
+|   |   |   |   |   |   |--- feature_14 >  62.50
+|   |   |   |   |   |   |   |--- class: bad
+|   |   |   |   |--- feature_9 >  1.50
+|   |   |   |   |   |--- feature_5 <= 7.00
+|   |   |   |   |   |   |--- feature_7 <= 5.12
+|   |   |   |   |   |   |   |--- feature_2 <= 0.54
+|   |   |   |   |   |   |   |   |--- class: good
+|   |   |   |   |   |   |   |--- feature_2 >  0.54
+|   |   |   |   |   |   |   |   |--- feature_5 <= 2.50
+|   |   |   |   |   |   |   |   |   |--- feature_7 <= 2.00
+|   |   |   |   |   |   |   |   |   |   |--- class: good
+|   |   |   |   |   |   |   |   |   |--- feature_7 >  2.00
+|   |   |   |   |   |   |   |   |   |   |--- class: bad
+|   |   |   |   |   |   |   |   |--- feature_5 >  2.50
+|   |   |   |   |   |   |   |   |   |--- feature_1 <= 20.84
+|   |   |   |   |   |   |   |   |   |   |--- feature_11 <= 1.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: good
+|   |   |   |   |   |   |   |   |   |   |--- feature_11 >  1.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: bad
+|   |   |   |   |   |   |   |   |   |--- feature_1 >  20.84
+|   |   |   |   |   |   |   |   |   |   |--- feature_0 <= 1.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: bad
+|   |   |   |   |   |   |   |   |   |   |--- feature_0 >  1.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |--- feature_7 >  5.12
+|   |   |   |   |   |   |   |--- class: good
+|   |   |   |   |   |--- feature_5 >  7.00
+|   |   |   |   |   |   |--- feature_3 <= 1.50
+|   |   |   |   |   |   |   |--- class: bad
+|   |   |   |   |   |   |--- feature_3 >  1.50
+|   |   |   |   |   |   |   |--- feature_11 <= 1.50
+|   |   |   |   |   |   |   |   |--- class: bad
+|   |   |   |   |   |   |   |--- feature_11 >  1.50
+|   |   |   |   |   |   |   |   |--- class: good
+|   |   |   |--- feature_14 >  148.50
+|   |   |   |   |--- feature_14 <= 337.00
+|   |   |   |   |   |--- class: good
+|   |   |   |   |--- feature_14 >  337.00
+|   |   |   |   |   |--- class: bad
+|   |--- feature_14 >  385.50
+|   |   |--- feature_5 <= 3.50
+|   |   |   |--- feature_2 <= 0.42
+|   |   |   |   |--- class: bad
+|   |   |   |--- feature_2 >  0.42
+|   |   |   |   |--- feature_14 <= 995.00
+|   |   |   |   |   |--- feature_14 <= 907.00
+|   |   |   |   |   |   |--- feature_1 <= 28.12
+|   |   |   |   |   |   |   |--- class: good
+|   |   |   |   |   |   |--- feature_1 >  28.12
+|   |   |   |   |   |   |   |--- feature_6 <= 2.00
+|   |   |   |   |   |   |   |   |--- class: bad
+|   |   |   |   |   |   |   |--- feature_6 >  2.00
+|   |   |   |   |   |   |   |   |--- class: good
+|   |   |   |   |   |--- feature_14 >  907.00
+|   |   |   |   |   |   |--- class: bad
+|   |   |   |   |--- feature_14 >  995.00
+|   |   |   |   |   |--- class: good
+|   |   |--- feature_5 >  3.50
+|   |   |   |--- class: good
+|--- feature_8 >  1.50
+|   |--- feature_2 <= 0.17
+|   |   |--- feature_7 <= 0.08
+|   |   |   |--- feature_6 <= 4.00
+|   |   |   |   |--- feature_1 <= 21.80
+|   |   |   |   |   |--- feature_1 <= 19.80
+|   |   |   |   |   |   |--- class: good
+|   |   |   |   |   |--- feature_1 >  19.80
+|   |   |   |   |   |   |--- class: bad
+|   |   |   |   |--- feature_1 >  21.80
+|   |   |   |   |   |--- class: good
+|   |   |   |--- feature_6 >  4.00
+|   |   |   |   |--- class: bad
+|   |   |--- feature_7 >  0.08
+|   |   |   |--- feature_6 <= 2.50
+|   |   |   |   |--- feature_14 <= 419.00
+|   |   |   |   |   |--- class: bad
+|   |   |   |   |--- feature_14 >  419.00
+|   |   |   |   |   |--- class: good
+|   |   |   |--- feature_6 >  2.50
+|   |   |   |   |--- class: good
+|   |--- feature_2 >  0.17
+|   |   |--- feature_4 <= 2.50
+|   |   |   |--- feature_5 <= 12.50
+|   |   |   |   |--- feature_14 <= 2350.00
+|   |   |   |   |   |--- feature_2 <= 1.56
+|   |   |   |   |   |   |--- feature_2 <= 1.52
+|   |   |   |   |   |   |   |--- feature_5 <= 1.50
+|   |   |   |   |   |   |   |   |--- feature_2 <= 0.48
+|   |   |   |   |   |   |   |   |   |--- class: good
+|   |   |   |   |   |   |   |   |--- feature_2 >  0.48
+|   |   |   |   |   |   |   |   |   |--- class: bad
+|   |   |   |   |   |   |   |--- feature_5 >  1.50
+|   |   |   |   |   |   |   |   |--- feature_7 <= 1.33
+|   |   |   |   |   |   |   |   |   |--- class: bad
+|   |   |   |   |   |   |   |   |--- feature_7 >  1.33
+|   |   |   |   |   |   |   |   |   |--- feature_13 <= 155.00
+|   |   |   |   |   |   |   |   |   |   |--- feature_13 <= 114.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: bad
+|   |   |   |   |   |   |   |   |   |   |--- feature_13 >  114.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: good
+|   |   |   |   |   |   |   |   |   |--- feature_13 >  155.00
+|   |   |   |   |   |   |   |   |   |   |--- class: bad
+|   |   |   |   |   |   |--- feature_2 >  1.52
+|   |   |   |   |   |   |   |--- feature_13 <= 286.00
+|   |   |   |   |   |   |   |   |--- class: good
+|   |   |   |   |   |   |   |--- feature_13 >  286.00
+|   |   |   |   |   |   |   |   |--- class: bad
+|   |   |   |   |   |--- feature_2 >  1.56
+|   |   |   |   |   |   |--- class: bad
+|   |   |   |   |--- feature_14 >  2350.00
+|   |   |   |   |   |--- feature_14 <= 3121.00
+|   |   |   |   |   |   |--- class: good
+|   |   |   |   |   |--- feature_14 >  3121.00
+|   |   |   |   |   |   |--- class: bad
+|   |   |   |--- feature_5 >  12.50
+|   |   |   |   |--- feature_7 <= 1.73
+|   |   |   |   |   |--- class: bad
+|   |   |   |   |--- feature_7 >  1.73
+|   |   |   |   |   |--- class: good
+|   |   |--- feature_4 >  2.50
+|   |   |   |--- class: good

@@ -1,0 +1,14 @@
+Eðitim (Train) Sonucu:
+Accuracy: 0.863265306122449
+TPrate: 0.549645390070922
+TNrate: 0.8348909657320872
+TP adedi: 155
+TN adedi: 268
+*******************
+
+Sýnama (Test) Sonucu:
+Accuracy: 0.82
+TPrate: 0.8987341772151899
+TNrate: 0.768595041322314
+TP adedi: 71
+TN adedi: 93
